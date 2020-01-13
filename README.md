@@ -4,7 +4,7 @@ Package to connect to comtele.com.br.
 
 ### Install the package using composer
 ```sh
-composer required andremellow/laravel-comtele
+composer require andremellow/laravel-comtele
 ```
 
 ### You can export the configuration file 
