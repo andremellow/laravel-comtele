@@ -4,12 +4,12 @@ Package to connect to comtele.com.br.
 
 ### Install the package using composer
 ```sh
-composer required andremellow/laravel-comtele
+composer require andremellow/laravel-comtele
 ```
 
 ### You can export the configuration file 
 You should not need to export the vendor file, since you can overhide all configurations on the .env file.
-But just in case you need, just run the folling command
+But just in case you need, just run the following command
 
 ```sh
 php artisan vendor:publish --provider="Andremellow\Comtele\ComteleChannelServiceProvider"
@@ -103,7 +103,7 @@ Go back to the `User` class and add a new method `routeNotificationForComtele`
     }
 ```
 
-Diffrent of Nexmo, Comtele only sends message to Brazilan carriers. And because of that you don't need to the country number to the phone number. 
+Different of Nexmo, Comtele only sends message to Brazilan carriers. And because of that you don't need to the country number to the phone number. 
 Just use like `319xxxxxxxxx`
 
 Any question, feel free to reach out to me at andremellow@gmail.com
