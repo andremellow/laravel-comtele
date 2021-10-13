@@ -16,5 +16,12 @@
             "Andremellow\\Comtele\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Andremellow\\Comtele\\ComteleChannelServiceProvider"
+            ]
+        }
+    }
 }
